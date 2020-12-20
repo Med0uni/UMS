@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyPackage.controllers.DashboardController">
+      <children>
+      <Pane maxWidth="1.7976931348623157E308" prefHeight="139.0" prefWidth="2000.0" style="-fx-background-color: #1165a6;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="104.0" layoutY="35.0" text="UNIVERSITY INFORMATION" textFill="WHITE">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="110.0" layoutY="96.0" text="University Mangement " textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="WHITE" glyphName="CIRCLE" layoutX="14.0" layoutY="98.0" size="80" wrappingWidth="71.2857141494751" />
+            <FontAwesomeIconView fill="#1165a6" glyphName="PLAY" layoutX="15.0" layoutY="89.0" rotate="-180.0" size="52" text="" textAlignment="CENTER" wrappingWidth="57.42857360839844" />
+            <Button fx:id="Back" layoutX="21.0" layoutY="44.0" mnemonicParsing="false" onAction="#Back" prefHeight="52.0" prefWidth="57.0" rotate="-55.0" style="-fx-background-color: transperent;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutY="139.0" prefHeight="461.0" prefWidth="900.0">
+         <Label layoutX="37.0" layoutY="28.0" prefHeight="23.0" prefWidth="164.0" text="Full Name :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="37.0" layoutY="69.0" prefHeight="23.0" prefWidth="138.0" text="Brief Name :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="37.0" layoutY="110.0" prefHeight="23.0" prefWidth="138.0" text="University :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+       
+        <Label layoutX="37.0" layoutY="153.0" prefHeight="23.0" prefWidth="138.0" text="Type of School :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+       
+        <Label layoutX="37.0" layoutY="194.0" prefHeight="23.0" prefWidth="138.0" text="Diplomat :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="37.0" layoutY="237.0" prefHeight="23.0" prefWidth="138.0" text="Year Founded :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        <Label layoutX="37.0" layoutY="279.0" prefHeight="23.0" prefWidth="138.0" text="N° of students">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        <Label layoutX="501.0" layoutY="110.0" prefHeight="23.0" prefWidth="138.0" text="City :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="501.0" layoutY="149.0" prefHeight="23.0" prefWidth="138.0" text="E-mail :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="501.0" layoutY="27.0" prefHeight="23.0" prefWidth="138.0" text="Address :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+        
+        <Label layoutX="501.0" layoutY="70.0" prefHeight="23.0" prefWidth="138.0" text="Postal code :">
+            <font>
+               <Font size="16.0" />
+            </font></Label>
+         <TextField fx:id="fullName" layoutX="183.0" layoutY="25.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="briefName" layoutX="183.0" layoutY="68.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="university" layoutX="183.0" layoutY="109.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="type" layoutX="183.0" layoutY="151.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="diplom" layoutX="183.0" layoutY="193.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="year" layoutX="183.0" layoutY="235.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="nStudents" layoutX="183.0" layoutY="277.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="adress" layoutX="632.0" layoutY="25.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="codePostal" layoutX="632.0" layoutY="67.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="city" layoutX="632.0" layoutY="109.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="email" layoutX="632.0" layoutY="151.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <Button fx:id="Update" layoutX="270.0" layoutY="369.0" mnemonicParsing="false" onAction="#Update" prefHeight="60.0" prefWidth="138.0" style="-fx-background-color: #1165a6;" text="UPDATE" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Button fx:id="Print" layoutX="494.0" layoutY="369.0" mnemonicParsing="false" onAction="#Print" prefHeight="60.0" prefWidth="138.0" style="-fx-background-color: #1165a6;" text="PRINT" textFill="WHITE">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Button>
+         <Label layoutX="501.0" layoutY="196.0" prefHeight="23.0" prefWidth="138.0" text="Fax :">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="501.0" layoutY="235.0" prefHeight="23.0" prefWidth="138.0" text="Telephone :">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="fax" layoutX="632.0" layoutY="195.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <TextField fx:id="tel" layoutX="632.0" layoutY="237.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+         <Label layoutX="37.0" layoutY="320.0" prefHeight="23.0" prefWidth="138.0" text="N° of staff">
+            <font>
+               <Font size="16.0" />
+            </font>
+         </Label>
+         <TextField fx:id="nStaff" layoutX="183.0" layoutY="318.0">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </TextField>
+       
+      </Pane>
+   </children>
+</AnchorPane>
